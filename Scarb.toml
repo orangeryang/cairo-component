@@ -1,0 +1,13 @@
+[package]
+name = "components"
+cairo-version = "2.3.1"
+version = "0.1.0"
+
+[dependencies]
+starknet = ">=2.3.0"
+
+[lib]
+
+[[target.starknet-contract]]
+sierra = true
+casm = false
